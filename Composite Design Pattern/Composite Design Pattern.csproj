@@ -7,7 +7,7 @@
     <ProjectGuid>{B1ED37F2-5BEC-44FF-8870-29AD0B48DE4A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Composite_Design_Pattern</RootNamespace>
-    <AssemblyName>Composite_Design_Pattern</AssemblyName>
+    <AssemblyName>Composite Design Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="CompositeDesignPattern.cs" />
+    <Compile Include="HtmlElement.cs" />
+    <Compile Include="HtmlParentElement.cs" />
+    <Compile Include="HtmlTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
