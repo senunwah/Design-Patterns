@@ -60,7 +60,7 @@ namespace Composite_Design_Pattern
             }
             Console.WriteLine(endTag);
 
-            Console.Read();
+            
         }
 
         public override void SetTagBody(string TagBody)
